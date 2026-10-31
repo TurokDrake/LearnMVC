@@ -77,6 +77,6 @@ public class RoleController : MonoBehaviour
 
     private void OnDestroy()
     {
-        
+        PlayerModel.Data.RemoveEventListener(UpdateInfo);
     }
 }

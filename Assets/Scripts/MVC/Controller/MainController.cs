@@ -77,5 +77,6 @@ public class MainController : MonoBehaviour
     // 当面板实例被移除时，需要删除按钮的监听函数
     private void OnDestroy()
     {
+        PlayerModel.Data.RemoveEventListener(UpdateInfo);
     }
 }

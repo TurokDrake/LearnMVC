@@ -1858,8 +1858,8 @@ GameObject:
   - component: {fileID: 5583260216246271589}
   - component: {fileID: 5583260216246271591}
   - component: {fileID: 5583260216246271588}
-  - component: {fileID: -2575155794201925733}
-  - component: {fileID: 2422493523718855463}
+  - component: {fileID: 989504691476815367}
+  - component: {fileID: 2263743626994268325}
   m_Layer: 5
   m_Name: RolePanel
   m_TagString: Untagged
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-2575155794201925733
+--- !u!114 &989504691476815367
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1936,10 +1936,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5583260216246271586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b21b40e1fffdf03419eaf676a2d12b56, type: 3}
+  m_Script: {fileID: 11500000, guid: 578b117aad235404f9897bfd34329355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2422493523718855463
+--- !u!114 &2263743626994268325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1948,7 +1948,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5583260216246271586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5feadde4ca29c848916557b06ebc0e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7e2e11a632d874ea4f1fe4ed502011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   txtLev: {fileID: 5583260216536511041}
