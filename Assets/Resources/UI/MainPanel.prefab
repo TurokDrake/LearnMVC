@@ -557,8 +557,7 @@ GameObject:
   - component: {fileID: 1161290427554659403}
   - component: {fileID: 1161290427554659413}
   - component: {fileID: 1161290427554659412}
-  - component: {fileID: 486054594710784036}
-  - component: {fileID: 313989875616708644}
+  - component: {fileID: 4634950558280386695}
   m_Layer: 5
   m_Name: MainPanel
   m_TagString: Untagged
@@ -627,7 +626,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &486054594710784036
+--- !u!114 &4634950558280386695
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -636,27 +635,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1161290427554659402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8692a28290cd94844adb68530b0aa43d, type: 3}
+  m_Script: {fileID: 11500000, guid: 238453b8c5867a445a65162d4a2d327b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &313989875616708644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161290427554659402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: beab53b7bda5b8141a3b926995c02116, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  txtName: {fileID: 1161290428230174371}
-  txtLev: {fileID: 1161290428102988170}
-  txtMoney: {fileID: 1161290426745931744}
-  txtPower: {fileID: 1161290426721801018}
-  txtGem: {fileID: 1161290426649783670}
-  btnRole: {fileID: 1161290427563017655}
 --- !u!1 &1161290427563017653
 GameObject:
   m_ObjectHideFlags: 0
