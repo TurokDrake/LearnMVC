@@ -1858,7 +1858,7 @@ GameObject:
   - component: {fileID: 5583260216246271589}
   - component: {fileID: 5583260216246271591}
   - component: {fileID: 5583260216246271588}
-  - component: {fileID: 3879258693453477543}
+  - component: {fileID: 1005676397718480775}
   m_Layer: 5
   m_Name: RolePanel
   m_TagString: Untagged
@@ -1909,7 +1909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0.27450982}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.27450982}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1926,7 +1926,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3879258693453477543
+--- !u!114 &1005676397718480775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1935,9 +1935,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 5583260216246271586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c419b12c71e2b546976faed3d823ffe, type: 3}
+  m_Script: {fileID: 11500000, guid: 908754b480735fc4f9601ae11b989d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtLev: {fileID: 5583260216536511041}
+  txtHp: {fileID: 5583260215839701296}
+  txtAtk: {fileID: 5583260215822346989}
+  txtDef: {fileID: 5583260215673016025}
+  txtCrit: {fileID: 5583260216887395164}
+  txtMiss: {fileID: 5583260215448354950}
+  txtLuck: {fileID: 5583260216022871860}
+  btnClose: {fileID: 7568852912905617152}
+  btnLevUp: {fileID: 73311571182045304}
 --- !u!1 &5583260216322491389
 GameObject:
   m_ObjectHideFlags: 0
